@@ -85,6 +85,7 @@ add_custom_command(OUTPUT include/ipmi-whitelist.hpp
 add_library (zampoemcmds
              SHARED
              src/bridgingcommands.cpp
+             src/appcommands.cpp
              include/ipmi-whitelist.hpp)
 set_target_properties (zampoemcmds PROPERTIES VERSION "0.1.0")
 set_target_properties (zampoemcmds PROPERTIES SOVERSION "0")
