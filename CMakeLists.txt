@@ -78,7 +78,8 @@ include_directories (SYSTEM ${CMAKE_BINARY_DIR})
 
 add_library (zampoemcmds
              SHARED
-             src/bridgingcommands.cpp)
+             src/bridgingcommands.cpp
+             src/appcommands.cpp)
 
 set_target_properties (zampoemcmds PROPERTIES VERSION "0.1.0")
 set_target_properties (zampoemcmds PROPERTIES SOVERSION "0")
