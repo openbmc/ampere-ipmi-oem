@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "663ad855_a6b9f616",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000940
+      },
+      "writtenOn": "2021-07-07T07:45:19Z",
+      "side": 1,
+      "message": "doesn\u0027t",
+      "revId": "4d21f637225d66352d42856761bd9944a5dca53c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "81bca4fc_ffbb9cff",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000940
+      },
+      "writtenOn": "2021-07-07T07:45:19Z",
+      "side": 1,
+      "message": "Syntax error, implement",
+      "revId": "4d21f637225d66352d42856761bd9944a5dca53c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f55c4e3_a77aba2f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000940
+      },
+      "writtenOn": "2021-07-07T07:45:19Z",
+      "side": 1,
+      "message": "Let change to: Ampere\u0027s Altra platform",
+      "revId": "4d21f637225d66352d42856761bd9944a5dca53c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    }
+  ]
+}
