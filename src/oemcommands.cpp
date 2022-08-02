@@ -65,6 +65,7 @@ ipmi::RspType<> ipmiSyncRTCTimeToBMC()
 {
     std::string cmd;
     std::string cmdOutput;
+    int ret;
     try
     {
         /* Check the mode of NTP in the system, set the system time in case the
@@ -80,7 +81,12 @@ ipmi::RspType<> ipmiSyncRTCTimeToBMC()
         else
         {
             /* Sync time from RTC to BMC using hwclock */
-            system("hwclock --hctosys");
+            ret = system("hwclock --hctosys");
+            if (ret == -1)
+            {
+                log<level::INFO>("Can not set the system time");
+                return responseFailure();
+            }
         }
     }
     catch(const std::exception& e)
