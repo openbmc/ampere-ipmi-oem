@@ -1,0 +1,7 @@
+Verified+1: OpenBMC CI <openbmcbump-ci@yahoo.com>
+Code-Review+2: Thang Q. Nguyen <thang@os.amperecomputing.com>
+Submitted-by: Thang Q. Nguyen <thang@os.amperecomputing.com>
+Submitted-at: Fri, 05 Aug 2022 02:13:27 +0000
+Reviewed-on: https://gerrit.openbmc.org/c/openbmc/ampere-ipmi-oem/+/56136
+Project: openbmc/ampere-ipmi-oem
+Branch: refs/heads/master
