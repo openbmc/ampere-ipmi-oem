@@ -28,5 +28,6 @@ constexpr uint8_t netFnAmpere = 0x3c;
 namespace general
 {
 constexpr uint8_t cmdSyncRtcTime = 0xf9;
+constexpr uint8_t cmdEditBmcMacAdr = 0x01;
 } // namespace general
 } // namespace ipmi

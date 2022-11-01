@@ -34,6 +34,20 @@ ipmid_dep = dependency('libipmid')
 channellayer_dep = cpp.find_library('channellayer', required: true)
 userlayer_dep = cpp.find_library('userlayer', required: true)
 
+mac_fru_bus = get_option('mac-address-fru-bus')
+if mac_fru_bus >= 0
+  add_project_arguments(
+    '-DMAC_ADDRESS_FRU_BUS=' + mac_fru_bus.to_string(),
+    language : 'cpp')
+endif
+
+mac_fru_bus = get_option('mac-address-fru-addr')
+if mac_fru_bus >= 8 and mac_fru_bus <=119
+  add_project_arguments(
+    '-DMAC_ADDRESS_FRU_ADDR=' + mac_fru_bus.to_string(),
+    language : 'cpp')
+endif
+
 zampoemcmds_pre = declare_dependency(
   include_directories: root_inc,
   dependencies: [
