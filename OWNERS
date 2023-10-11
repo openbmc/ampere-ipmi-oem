@@ -32,7 +32,6 @@
 # data within them will be kept sorted.
 
 owners:
-- dung@os.amperecomputing.com
 - thang@os.amperecomputing.com
 
 reviewers:
@@ -40,9 +39,6 @@ reviewers:
 matchers:
 
 openbmc:
-- name: Dung Cao
-  email: dung@os.amperecomputing.com
-  discord: dcao
 - name: Thang Q. Nguyen
   email: thang@os.amperecomputing.com
   discord: thangqn
