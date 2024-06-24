@@ -91,7 +91,7 @@ static inline auto responseFailure()
 
     /*
      * Scan all FRU objects to find out baseboard FRU device.
-     * The basedboard FRU device is indecate by chassis type
+     * The basedboard FRU device is indicated by chassis type
      * is Rack Mount - "23"
      */
     for (const auto& fruObj : fruObjects)
