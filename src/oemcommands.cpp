@@ -57,7 +57,7 @@ static inline auto responseFailure()
 [[maybe_unused]] static bool getBaseBoardFRUAddr(uint8_t& busIdx, uint8_t& addr)
 {
     bool retVal = false;
-    sd_bus* bus = NULL;
+    sd_bus *bus = nullptr;
     FruObjectType fruObjects;
 
     /*
@@ -135,7 +135,7 @@ static bool getRawFruData(uint8_t busIdx, uint8_t addr,
                           std::vector<uint8_t>& fruData)
 {
     bool retVal = false;
-    sd_bus* bus = NULL;
+    sd_bus *bus = nullptr;
     int ret = sd_bus_default_system(&bus);
 
     if (ret < 0)
@@ -262,7 +262,7 @@ static bool writeFruData(uint8_t busIdx, uint8_t addr,
                          std::vector<uint8_t>& fruData)
 {
     bool retVal = false;
-    sd_bus* bus = NULL;
+    sd_bus *bus = nullptr;
     int ret = sd_bus_default_system(&bus);
 
     if (ret < 0)
@@ -311,9 +311,8 @@ std::string exec(const char* cmd)
     try
     {
         /* Reads a line from the specified stream and stores it */
-        while (fgets(buffer, sizeof buffer, pipe) != NULL)
-        {
-            result += buffer;
+        while (fgets(buffer, sizeof buffer, pipe) != nullptr) {
+          result += buffer;
         }
     }
     catch (...)
