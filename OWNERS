@@ -32,17 +32,17 @@
 # data within them will be kept sorted.
 
 owners:
-- dcao-ampere
-- thangqn-ampere
+- thubanguyen
 
 reviewers:
+- thuutran@amperecomputing.com
 
 matchers:
 
 openbmc:
-- name: Dung Cao
-  email: dung@os.amperecomputing.com
-  discord: dcao
-- name: Thang Q. Nguyen
-  email: thang@os.amperecomputing.com
-  discord: thangqn
+- name: Thu Nguyen
+  email: thu@os.amperecomputing.com
+  discord: thubanguyen
+- name: Thang Tran
+  email: thuutran@amperecomputing.com
+  discord: thang.tran
